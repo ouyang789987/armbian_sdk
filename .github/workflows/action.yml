@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        board: [uefi-x86,uefi-arm64]
+        board: [bananapir2pro]
         os: ["jammy"]
         extension: [",image-output-qcow2",""]
         
